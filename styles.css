@@ -1,0 +1,559 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+/* Home Section */
+#home {
+    background: url('images/bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #cc4627;
+}
+
+/* Produk Section */
+#products {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product:hover {
+    background: #ddd;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    color: #ff5733;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+img {
+    max-width: 100%;  /* Pastikan gambar tidak lebih besar dari section */
+    height: auto;  /* Menjaga aspek rasio */
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px; /* Memberikan sedikit rounded effect */
+}
+
+/* Services Section */
+#services .container {
+    display: flex;  /* Mengatur layout menjadi horizontal */
+    justify-content: center; /* Pusatkan konten secara horizontal */
+    flex-wrap: wrap; /* Agar tetap responsif di layar kecil */
+    gap: 20px; /* Jarak antar item */
+}
+#services h2 {
+    margin-bottom: 20px; /* Beri jarak antara judul dan kotak layanan */
+    text-align: center;
+}
+.service {
+    flex: 1; /* Membuat setiap item berbagi ruang secara seimbang */
+    max-width: 300px; /* Batas maksimal lebar tiap layanan */
+    text-align: center;
+}
+
+.service img {
+    width: 100%; /* Gambar tetap responsif */
+    max-width: 250px; /* Batasi ukuran gambar */
+    height: auto;
+    border-radius: 5px;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+/* Services Section */
+#services {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.testimonial {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Customer Section */
+#customers {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.customer-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.customer-logos img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.customer-logos img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.contact-link a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+.contact-link a:hover {
+    text-decoration: underline;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+/* About Us Section */
+#about-us, #eco-packaging {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.about-content, .eco-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-text, .eco-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-image, .eco-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img, .eco-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Reverse Order for Eco Packaging */
+.eco-content {
+    flex-direction: row-reverse; /* Membalik posisi teks dan gambar */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #cc4627;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.contact-link a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+.contact-link a:hover {
+    text-decoration: underline;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+/* Contact Us Section */
+#contact-us {
+    background: #fff;
+    padding: 50px 0;
+    text-align: left;
+}
+
+#contact-us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-us label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact-us input,
+#contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-us .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-us .btn:hover {
+    background: #cc4627;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-info {
+    margin-bottom: 20px;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.social-media a {
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
